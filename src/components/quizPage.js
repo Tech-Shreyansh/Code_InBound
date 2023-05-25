@@ -1,4 +1,5 @@
 import React, { useState ,useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Ques from "./Question";
 import './quizPage.css'
 const data = [
@@ -26,13 +27,13 @@ const data = [
         "id": 5,
         "question": "What could we do to improve our service?",
         "answerType": 3
-    },
+    }
 ]
 function Quiz () {
 
     const size = data.length
-
     return (
+
         <div id="QuesList">
         {
             data.map((box,index)=>{return<Ques n={size} box={box} key={box.id}/>})

@@ -48,7 +48,7 @@
     width: 15vw;
     height: auto;
     background-color: aqua;
-    margin: 7.5vw;
+    margin: 2vw 7.5vw;
     float: right;
     border-radius: 1vw;
     text-align: center;
@@ -58,7 +58,7 @@
     cursor: pointer;
     width: 15vw;
     background-color: aqua;
-    margin: 7.5vw;
+    margin: 2vw 7.5vw;
     float: left;
     border-radius: 1vw;
     text-align: center;
@@ -68,7 +68,7 @@
     width: 50vw;
   height: 15vw;
   background-color: white;
-  margin: 2vw 25vw;
+  margin: 2vw 5vw;
   resize: none;
   outline: none;
 }

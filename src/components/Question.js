@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Rating from "./ratingBox";
 
 function Ques(props){
+    const navHandler = useNavigate()
     const state = props.box.id
     return(
         <div className="ques" id= {"ques" + state}>
@@ -12,7 +14,7 @@ function Ques(props){
             {(state===1)?<></>:<div className="prev" onClick={()=>{document.getElementById("ques" + (state-1)).style.display = "block"}}>
             Previous
             </div>}
-            {(state===props.n)?<div className="next">Submit</div>:<div className="next" onClick={()=>{document.getElementById("ques" + state).style.display = "none"}}>
+            {(state===props.n)?<div className="next" onClick={()=>{navHandler('/answer')}}>Submit</div>:<div className="next" onClick={()=>{document.getElementById("ques" + state).style.display = "none"}}>
             Next
         </div>}
         </div>

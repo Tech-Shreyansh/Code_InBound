@@ -1,0 +1,9 @@
+.prev{
+    cursor: pointer;
+    width: 15vw;
+    background-color: aqua;
+    margin: 2vw 7.5vw;
+    float: left;
+    border-radius: 1vw;
+    text-align: center;
+}
