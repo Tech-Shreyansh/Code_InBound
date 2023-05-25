@@ -8,11 +8,13 @@ function Submit() {
     console.log(data)
 
     return(
-        <div>
+        <div id="submit">
+        <h1>
+            Thanks For The Feedback !! 
+        </h1>
         {data.map((box)=>{
-           return <div> question : {box[0]} <br/> answer : {box[1]}  </div>
+           return <div className='response'> <strong>Question :</strong> {box[0]} <br/> <strong>Answer :</strong> {box[1]} <br/> <br/></div>
         })}
-        {/* {data} */}
         </div>
     )
 }

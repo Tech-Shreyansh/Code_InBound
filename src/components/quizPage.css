@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(145, 145, 253);
+}
+
 #QuesList{
     display: flex;
     flex-direction: row;
@@ -41,23 +45,26 @@
     align-items: center;
     line-height: 150%;
     cursor: pointer;
+    box-shadow: 0.1vw 0.1vw 1vw 0.1vw black;
 }
 
 .next{
     cursor: pointer;
     width: 15vw;
     height: auto;
-    background-color: aqua;
     margin: 2vw 7.5vw;
     float: right;
     border-radius: 1vw;
     text-align: center;
+    background: linear-gradient(230.33deg, #4725c2 -274.99%, rgba(217, 217, 217, 0) 124.83%);;
+    box-shadow: 0.1vw 0.1vw 1vw 0.1vw black;
 }
 
 .prev{
     cursor: pointer;
     width: 15vw;
-    background-color: aqua;
+    background: linear-gradient(230.33deg, #4725c2 -274.99%, rgba(217, 217, 217, 0) 124.83%);;
+    box-shadow: 0.1vw 0.1vw 1vw 0.1vw black;
     margin: 2vw 7.5vw;
     float: left;
     border-radius: 1vw;
@@ -71,4 +78,5 @@
   margin: 2vw 5vw;
   resize: none;
   outline: none;
+  box-shadow: 0.1vw 0.1vw 1vw 0.1vw black;
 }

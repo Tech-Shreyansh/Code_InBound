@@ -1,9 +1,31 @@
-.prev{
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+#home{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+#home h1, #home h3{
+    text-align: center;
+}
+
+#start{
     cursor: pointer;
     width: 15vw;
-    background-color: aqua;
-    margin: 2vw 7.5vw;
-    float: left;
+    font-size: 2vw;
+    margin: 4vw 40vw;
     border-radius: 1vw;
     text-align: center;
+    background: linear-gradient(230.33deg, #4725c2 -274.99%, rgba(217, 217, 217, 0) 124.83%);;
+    box-shadow: 0.1vw 0.1vw 1vw 0.1vw black;
+}
+
+#submit {
+    margin: 10vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.response{
+    text-shadow: 1vw 1vw 1vw 1vw #4725c2;
 }
