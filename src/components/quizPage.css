@@ -1,6 +1,6 @@
 #QuesList{
     display: flex;
-    /* fl */
+    flex-direction: row;
 }
 
 .ques{
@@ -40,4 +40,35 @@
     text-align: center;
     align-items: center;
     line-height: 150%;
+    cursor: pointer;
+}
+
+.next{
+    cursor: pointer;
+    width: 15vw;
+    height: auto;
+    background-color: aqua;
+    margin: 7.5vw;
+    float: right;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.prev{
+    cursor: pointer;
+    width: 15vw;
+    background-color: aqua;
+    margin: 7.5vw;
+    float: left;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.textArea{
+    width: 50vw;
+  height: 15vw;
+  background-color: white;
+  margin: 2vw 25vw;
+  resize: none;
+  outline: none;
 }
