@@ -1,0 +1,43 @@
+#QuesList{
+    display: flex;
+    /* fl */
+}
+
+.ques{
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    font-size: 3vw;
+}
+
+.ques h2{
+    text-align: center;
+    margin: 1vw;
+}
+
+.ques span{
+    float: right;
+    margin: 1vw 8vw;
+}
+
+.ques p{
+    margin: 1vw 10vw ;
+    text-align: center;
+}
+
+.rating{
+    display: flex;
+    width: 60vw;
+    margin: 2.5vw 20vw;
+    justify-content: space-between;
+}
+
+.bubble{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 150%;
+}
